@@ -15,6 +15,14 @@ function DrawerNavigator(props) {
     <SafeAreaView style={{ flex: 1 }}>
     <Drawer.Navigator
       initialRouteName="HomePage"
+      screenOptions={{
+        drawerStyle: {
+          backgroundColor: '#f5f5f5',
+          width: 240,
+          borderTopRightRadius: 20, // Add top-right border radius
+          borderBottomRightRadius: 20, // Add bottom-right border radius
+        },
+      }}
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
       <Drawer.Screen

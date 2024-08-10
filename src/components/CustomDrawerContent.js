@@ -74,7 +74,7 @@ const CustomDrawerContent = (props) => {
                 <DrawerItem
                     label="Calendar"
                     icon={() => <Image source={getIcon('Calendar')} style={styles.drawerIcon} />}
-                    onPress={() => handleItemPress('Calendar')}
+                    onPress={() => handleItemPress('Schedule')}
                     labelStyle={{ color: selectedItem === 'Calendar' ? '#605BFF' : '#000' }}
                 />
                 <DrawerItem
@@ -114,6 +114,7 @@ const styles = StyleSheet.create({
     closeIcon: {
         width: 16,
         height: 16,
+        margin:10
     },
     drawerIcon: {
         width: 20,

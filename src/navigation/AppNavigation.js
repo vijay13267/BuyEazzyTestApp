@@ -10,12 +10,12 @@ function Navigation() {
         <Stack.Screen 
             name="Login" 
             component={LoginPage} 
-            options={{ headerShown: false }} // Hide the header if desired
+            options={{ headerShown: false }} 
         />
         <Stack.Screen 
             name="HomePage" 
             component={DrawerNavigator} 
-            options={{ headerShown: false }} // Hide the header if desired
+            options={{ headerShown: false }} 
         />
     </Stack.Navigator>
   );

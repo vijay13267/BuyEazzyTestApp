@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 20,
-        // backgroundColor: '#000', // Background color black
     },
     header: {
         flexDirection: 'row',
@@ -34,12 +33,12 @@ const styles = StyleSheet.create({
         width: 16,
         height: 12,
         padding:10,
-        tintColor: '#000', // Black color for the menu icon
+        tintColor: '#000', 
     },
     headerText: {
         fontSize: 24,
         fontWeight: '600',
-        color: '#000', // Black color for header text
+        color: '#000',
     },
     welcomeText: {
         fontSize: 16,
